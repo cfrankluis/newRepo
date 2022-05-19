@@ -1,0 +1,12 @@
+<input type="checkbox" [(ngModel)]="checkValue" placeholder="name">
+
+<button (click)="showNotification()" class="btn btn-primary mb-3" >Click Me</button>
+<div class="alert alert-success alert-dismissible fade show col-sm-7 mx-auto" role="alert">
+    <strong>Your Transaction was a success!</strong>
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
+
+<div class="alert alert-danger alert-dismissible fade show col-sm-7 mx-auto" role="alert">
+    <strong>Your Transaction failed!</strong>
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+</div>
